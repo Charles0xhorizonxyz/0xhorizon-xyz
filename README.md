@@ -6,7 +6,7 @@
 
 ## About
 
-We invest in foundational infrastructure: the protocols, systems, and technologies that enable trustless coordination at scale. Our work spans decentralised finance, digital asset systems, and the infrastructure required for durable, real-world blockchain applications.
+We invest in foundational infrastructure: the protocols, systems, and technologies that enable trustless coordination at scale. Our work spans decentralised finance, digital asset systems, and the infrastructure required for durable, real-world decentralised ledger applications.
 
 ### Our Focus
 
