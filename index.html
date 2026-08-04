@@ -61,74 +61,6 @@
       padding-left: 0;
     }
 
-    .bottom-meta {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 30px;
-      position: relative;
-      z-index: 1;
-    }
-
-    .lang-switch {
-      position: relative;
-      display: inline-flex;
-      align-items: center;
-    }
-
-    .lang-switch::before {
-      content: "";
-      position: absolute;
-      left: 12px;
-      top: 50%;
-      width: 14px;
-      height: 14px;
-      transform: translateY(-50%);
-      border: 1.5px solid rgba(244, 238, 233, 0.66);
-      border-radius: 999px;
-      opacity: 0.9;
-      pointer-events: none;
-      box-sizing: border-box;
-    }
-
-    .lang-switch::after {
-      content: "";
-      position: absolute;
-      right: 14px;
-      top: 50%;
-      width: 8px;
-      height: 8px;
-      transform: translateY(-65%) rotate(45deg);
-      border-right: 1.6px solid rgba(244, 238, 233, 0.78);
-      border-bottom: 1.6px solid rgba(244, 238, 233, 0.78);
-      pointer-events: none;
-    }
-
-    .lang-switch select {
-      appearance: none;
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      border: 1px solid rgba(255,255,255,0.14);
-      background: rgba(18,12,14,0.62);
-      color: var(--text);
-      font: inherit;
-      font-size: 0.95rem;
-      letter-spacing: 0.02em;
-      cursor: pointer;
-      padding: 10px 40px 10px 34px;
-      border-radius: 999px;
-      backdrop-filter: blur(8px);
-      box-shadow: 0 8px 22px rgba(0,0,0,0.18);
-      transition: border-color 0.2s ease, background 0.2s ease;
-    }
-
-    .lang-switch select:hover,
-    .lang-switch select:focus {
-      outline: none;
-      border-color: rgba(255,255,255,0.22);
-      background: rgba(24,16,18,0.72);
-    }
-
     main {
       padding: 18px 0 28px;
       position: relative;
@@ -365,14 +297,8 @@
         line-height: 1.76;
       }
 
-      .contact-row,
-      .bottom-meta {
+      .contact-row {
         justify-content: center;
-      }
-
-      .lang-switch select {
-        font-size: 0.92rem;
-        padding: 9px 38px 9px 32px;
       }
     }
   </style>
@@ -449,76 +375,8 @@
   <footer>
     <div class="wrap">
       <div data-i18n="footer_text">Digital infrastructure built for continuity</div>
-      <div class="bottom-meta">
-        <div class="lang-switch" aria-label="Language selector">
-          <select id="lang-select" aria-label="Language">
-            <option value="en">EN</option>
-            <option value="fr">FR</option>
-            <option value="fa">FA</option>
-          </select>
-        </div>
-      </div>
     </div>
   </footer>
 
-  <script>
-    const translations = {
-      en: {
-        nav_about: 'About', nav_founders: 'Founders', nav_contact: 'Contact',
-        hero_title: '0xHorizon builds digital infrastructure for real-world coordination.', hero_subtitle: 'Digital Assets Development Firm',
-        about_title: 'About',
-        about_text: '0xHorizon is a general infrastructure startup focused on digital systems built for coordination, continuity, and practical use. We work on the underlying layers that make interaction, exchange, and long-term usability more coherent across evolving digital environments.',
-        founders_title: 'Founders',
-        charles_text: 'Charles brings more than 25 years of experience across traditional finance and international markets. His work is centered on long-term structural thinking, economic systems, and the development of digital infrastructure designed to remain useful over time.',
-        parisa_text: 'Parisa brings more than 10 years of experience in computer science and financial development. Her work combines technical understanding, product logic, and strategic development with a focus on systems that are coherent, scalable, and durable.',
-        contact_title: 'Contact',
-        contact_text: 'For partnerships, conversations, or general inquiries, feel free to reach out.',
-        footer_text: 'Digital infrastructure built for continuity'
-      },
-      fr: {
-        nav_about: 'À propos', nav_founders: 'Fondateurs', nav_contact: 'Contact',
-        hero_title: '0xHorizon construit une infrastructure numérique pour la coordination du monde réel.', hero_subtitle: 'Digital Assets Development Firm',
-        about_title: 'À propos',
-        about_text: '0xHorizon est une startup d’infrastructure générale centrée sur des systèmes numériques conçus pour la coordination, la continuité et l’usage concret. Nous travaillons sur les couches fondamentales qui rendent l’interaction, l’échange et l’utilité de long terme plus cohérents dans des environnements numériques en évolution.',
-        founders_title: 'Fondateurs',
-        charles_text: 'Charles apporte plus de 25 ans d’expérience en finance traditionnelle et sur les marchés internationaux. Son travail est centré sur la pensée structurelle de long terme, les systèmes économiques et le développement d’infrastructures numériques conçues pour rester utiles dans le temps.',
-        parisa_text: 'Parisa apporte plus de 10 ans d’expérience en informatique et en développement financier. Son travail associe compréhension technique, logique produit et développement stratégique, avec un accent sur des systèmes cohérents, évolutifs et durables.',
-        contact_title: 'Contact',
-        contact_text: 'Pour un partenariat, un échange ou une prise de contact générale, n’hésitez pas à nous écrire.',
-        footer_text: 'Infrastructure numérique conçue pour durer'
-      },
-      fa: {
-        nav_about: 'درباره', nav_founders: 'بنیان‌گذاران', nav_contact: 'تماس',
-        hero_title: '0xHorizon برای هماهنگی دنیای واقعی زیرساخت دیجیتال می‌سازد.', hero_subtitle: 'Digital Assets Development Firm',
-        about_title: 'درباره',
-        about_text: '0xHorizon یک استارتاپ عمومی زیرساخت است که بر سیستم‌های دیجیتال برای هماهنگی، تداوم و استفاده عملی تمرکز دارد. ما روی لایه‌های بنیادی کار می‌کنیم که تعامل، تبادل و کارایی بلندمدت را در محیط‌های دیجیتال در حال تحول منسجم‌تر می‌کنند.',
-        founders_title: 'بنیان‌گذاران',
-        charles_text: 'Charles بیش از 25 سال تجربه در امور مالی سنتی و بازارهای بین‌المللی دارد. تمرکز کاری او بر تفکر ساختاری بلندمدت، سیستم‌های اقتصادی و توسعه زیرساخت دیجیتال است که در طول زمان مفید بماند.',
-        parisa_text: 'Parisa بیش از 10 سال تجربه در علوم کامپیوتر و توسعه مالی دارد. کار او ترکیبی از درک فنی، منطق محصول و توسعه راهبردی است با تمرکز بر سیستم‌هایی منسجم، مقیاس‌پذیر و پایدار.',
-        contact_title: 'تماس',
-        contact_text: 'برای همکاری، گفت‌وگو یا هرگونه ارتباط عمومی، خوشحال می‌شویم با ما در تماس باشید.',
-        footer_text: 'زیرساخت دیجیتال برای تداوم ساخته شده است'
-      }
-    };
-
-    const translatable = document.querySelectorAll('[data-i18n]');
-    const langSelect = document.getElementById('lang-select');
-
-    function setLang(lang) {
-      const dict = translations[lang] || translations.en;
-      translatable.forEach(el => {
-        const key = el.dataset.i18n;
-        if (dict[key]) el.textContent = dict[key];
-      });
-      document.documentElement.lang = lang;
-      document.documentElement.dir = lang === 'fa' ? 'rtl' : 'ltr';
-      if (langSelect) langSelect.value = lang;
-      localStorage.setItem('0xhorizon-lang', lang);
-    }
-    if (langSelect) {
-      langSelect.addEventListener('change', (e) => setLang(e.target.value));
-    }
-    setLang(localStorage.getItem('0xhorizon-lang') || 'en');
-  </script>
 </body>
 </html>
