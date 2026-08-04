@@ -2,11 +2,11 @@
 
 **Digital infrastructure built for continuity.**
 
-0xHorizon is a general infrastructure startup focused on digital systems built for coordination, continuity, and practical use. We work on the underlying layers that make interaction, exchange, and long-term usability more coherent across evolving digital environments.
+0xHorizon is an infrastructure startup grounded in decentralised finance. We believe finance should offer equal and free access, sovereignty over one's own assets, and power held where it belongs: in everyone's hands. The technology we build is simply the means to get there.
 
 ## About
 
-We invest in foundational infrastructure: the protocols, systems, and technologies that enable trustless coordination at scale. Our work spans decentralized finance, digital asset systems, and the infrastructure required for durable, real-world blockchain applications.
+We invest in foundational infrastructure: the protocols, systems, and technologies that enable trustless coordination at scale. Our work spans decentralised finance, digital asset systems, and the infrastructure required for durable, real-world blockchain applications.
 
 ### Our Focus
 
@@ -14,7 +14,7 @@ We invest in foundational infrastructure: the protocols, systems, and technologi
 - **Interoperability**: Cross-chain bridges and liquidity routing
 - **Real-world assets**: RWA integration and tokenization infrastructure
 - **Wallets & abstraction**: Account abstraction and user experience layers
-- **Identity & governance**: Decentralized identity and protocol governance tools
+- **Identity & governance**: Decentralised identity and protocol governance tools
 
 ## Founders
 
