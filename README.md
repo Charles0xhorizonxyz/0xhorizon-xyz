@@ -6,15 +6,15 @@
 
 ## About
 
-We invest in foundational infrastructure—the protocols, systems, and technologies that enable trustless coordination at scale. Our work spans decentralized finance, digital asset systems, and the infrastructure required for durable, real-world blockchain applications.
+We invest in foundational infrastructure: the protocols, systems, and technologies that enable trustless coordination at scale. Our work spans decentralized finance, digital asset systems, and the infrastructure required for durable, real-world blockchain applications.
 
 ### Our Focus
 
-- **Execution layers** — Rollups, modular chains, and scalable infrastructure
-- **Interoperability** — Cross-chain bridges and liquidity routing
-- **Real-world assets** — RWA integration and tokenization infrastructure
-- **Wallets & abstraction** — Account abstraction and user experience layers
-- **Identity & governance** — Decentralized identity and protocol governance tools
+- **Execution layers**: Rollups, modular chains, and scalable infrastructure
+- **Interoperability**: Cross-chain bridges and liquidity routing
+- **Real-world assets**: RWA integration and tokenization infrastructure
+- **Wallets & abstraction**: Account abstraction and user experience layers
+- **Identity & governance**: Decentralized identity and protocol governance tools
 
 ## Founders
 
@@ -36,4 +36,4 @@ For partnerships, conversations, or general inquiries:
 
 ---
 
-*0xHorizon — Building the infrastructure of trustless finance.*
+*0xHorizon: Building the infrastructure of trustless finance.*
