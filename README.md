@@ -16,6 +16,15 @@ We invest in foundational infrastructure: the protocols, systems, and technologi
 - **Wallets & abstraction**: Account abstraction and user experience layers
 - **Identity & governance**: Decentralised identity and protocol governance tools
 
+## Projects
+
+Work in progress. Stables is the main contribution.
+
+- **Stables**: a banking system merchants own. Self-custodial payments on the Minima blockchain, now in testing. [stablescouncil.org](https://stablescouncil.org/)
+- **The Bay**: open-source decentralised finance on Minima. The Pool is an on-chain order book, trading test assets only. [minima-bay.github.io](https://minima-bay.github.io/)
+- **Mininotes**: a private paper pad for the people close to you. Notes stay sealed from device to device over Maxima. [mininotes.org](https://mininotes.org/)
+- **Minima Hub**: a community directory for Minima nodes, dApps, and libraries. [minima-hub.github.io](https://minima-hub.github.io/)
+
 ## Founders
 
 **Charles Vallée**  

@@ -176,6 +176,54 @@
       line-height: 1.82;
     }
 
+    .project-list {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 32px 40px;
+      width: 100%;
+      max-width: 900px;
+      margin: 28px 0 0;
+    }
+
+    .project {
+      display: block;
+    }
+
+    .project-main {
+      grid-column: 1 / -1;
+      max-width: 62ch;
+    }
+
+    .project h3 {
+      font-size: clamp(1.2rem, 1.7vw, 1.45rem);
+      margin-bottom: 10px;
+      color: #fbf7f3;
+    }
+
+    .project-main h3 {
+      font-size: clamp(1.45rem, 2.1vw, 1.85rem);
+    }
+
+    .project p {
+      color: rgba(244, 238, 233, 0.88);
+      margin-bottom: 10px;
+      font-size: clamp(1.06rem, 1.3vw, 1.24rem);
+      line-height: 1.82;
+    }
+
+    .project-url {
+      color: var(--accent);
+      font-size: 1rem;
+    }
+
+    .project:hover h3 {
+      color: #ffffff;
+    }
+
+    .project:hover .project-url {
+      text-decoration: underline;
+    }
+
     .contact-row {
       display: flex;
       align-items: center;
@@ -236,8 +284,13 @@
         background-position: center top;
       }
 
-      .founder-list {
+      .founder-list,
+      .project-list {
         grid-template-columns: 1fr;
+      }
+
+      .project-main {
+        grid-column: auto;
       }
     }
 
@@ -248,9 +301,14 @@
         margin: 0;
       }
 
-      .founder-list {
+      .founder-list,
+      .project-list {
         margin: 0;
         gap: 22px;
+      }
+
+      .project-list {
+        margin-top: 22px;
       }
 
       main {
@@ -292,7 +350,8 @@
       }
 
       .section-block p,
-      .founder-list p {
+      .founder-list p,
+      .project p {
         font-size: 1.06rem;
         line-height: 1.76;
       }
@@ -323,6 +382,37 @@
         <div class="section-block">
         <h2 data-i18n="about_title">About</h2>
         <p data-i18n="about_text">0xHorizon is an infrastructure startup grounded in decentralised finance. We believe finance should offer equal and free access, sovereignty over one's own assets, and power held where it belongs: in everyone's hands. The technology we build is simply the means to get there.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="wrap hero-copy-rail">
+        <div class="section-block">
+          <h2 data-i18n="projects_title">Projects</h2>
+          <p data-i18n="projects_text">These are the projects 0xHorizon is contributing to now. Stables is the main one.</p>
+        </div>
+        <div class="project-list">
+          <a class="project project-main" href="https://stablescouncil.org/" target="_blank" rel="noopener">
+            <h3>Stables</h3>
+            <p data-i18n="stables_text">A banking system merchants own: self-custodial payments on the Minima blockchain, now in testing.</p>
+            <span class="project-url">stablescouncil.org</span>
+          </a>
+          <a class="project" href="https://minima-bay.github.io/" target="_blank" rel="noopener">
+            <h3>The Bay</h3>
+            <p data-i18n="bay_text">Open-source decentralised finance on Minima. The Pool is an on-chain order book, trading test assets only.</p>
+            <span class="project-url">minima-bay.github.io</span>
+          </a>
+          <a class="project" href="https://mininotes.org/" target="_blank" rel="noopener">
+            <h3>Mininotes</h3>
+            <p data-i18n="mininotes_text">A private paper pad for the people close to you. Notes stay sealed from device to device over Maxima.</p>
+            <span class="project-url">mininotes.org</span>
+          </a>
+          <a class="project" href="https://minima-hub.github.io/" target="_blank" rel="noopener">
+            <h3>Minima Hub</h3>
+            <p data-i18n="hub_text">A community directory for Minima nodes, dApps, and libraries.</p>
+            <span class="project-url">minima-hub.github.io</span>
+          </a>
         </div>
       </div>
     </section>
