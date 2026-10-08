@@ -40,7 +40,7 @@ For partnerships, conversations, or general inquiries:
 - **Website**: [0xhorizon.xyz](https://0xhorizon.xyz)
 - **Email**: [charles@0xhorizon.xyz](mailto:charles@0xhorizon.xyz)
 - **Twitter/X**: [@0xHorizonxyz](https://x.com/0xHorizonxyz)
-- **LinkedIn**: [0xhorizon-xyz](https://www.linkedin.com/company/0xhorizon-xyz)
+- **LinkedIn**: [charlesvallee](https://www.linkedin.com/in/charlesvallee/)
 - **Telegram**: [t.me/charles0xHorizonxyz](https://t.me/charles0xHorizonxyz)
 
 ---
