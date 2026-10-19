@@ -38,7 +38,7 @@ Parisa brings more than 10 years of experience in computer science and financial
 For partnerships, conversations, or general inquiries:
 
 - **Website**: [0xhorizon.xyz](https://0xhorizon.xyz)
-- **Email**: [charles@0xhorizon.xyz](mailto:charles@0xhorizon.xyz)
+- **Email**: [0xhorizonxyz@gmail.com](mailto:0xhorizonxyz@gmail.com)
 - **Twitter/X**: [@0xHorizonxyz](https://x.com/0xHorizonxyz)
 - **LinkedIn**: [charlesvallee](https://www.linkedin.com/in/charlesvallee/)
 - **Telegram**: [t.me/charles0xHorizonxyz](https://t.me/charles0xHorizonxyz)
