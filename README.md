@@ -20,10 +20,10 @@ We invest in foundational infrastructure: the protocols, systems, and technologi
 
 Work in progress. Stables is the main contribution.
 
-- **Stables**: a banking system merchants own. Self-custodial payments on the Minima blockchain, now in testing. [stablescouncil.org](https://stablescouncil.org/)
-- **The Bay**: open-source decentralised finance on Minima. The Pool is an on-chain order book, trading test assets only. [minima-bay.github.io](https://minima-bay.github.io/)
-- **Mininotes**: a private paper pad for the people close to you. Notes stay sealed from device to device over Maxima. [mininotes.org](https://mininotes.org/)
-- **123go.taxi**: turns an address into a QR code a taxi driver scans to start the route in their own navigation app. Free, open source, nothing collected. [123go.taxi](https://123go.taxi/)
+- **Stables** (in testing): a banking system merchants own. Self-custodial payments on the Minima blockchain, now in testing. [stablescouncil.org](https://stablescouncil.org/)
+- **The Bay** (in development): open-source decentralised finance on Minima. The Pool is an on-chain order book, trading test assets only. [minima-bay.github.io](https://minima-bay.github.io/)
+- **Mininotes** (live): a private paper pad for the people close to you. Notes stay sealed from device to device over Maxima. [mininotes.org](https://mininotes.org/)
+- **123go.taxi** (live): turns an address into a QR code a taxi driver scans to start the route in their own navigation app. Free, open source, nothing collected. [123go.taxi](https://123go.taxi/)
 
 ## Founders
 
