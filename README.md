@@ -2,11 +2,11 @@
 
 **Digital infrastructure built for continuity.**
 
-0xHorizon is an infrastructure startup grounded in decentralised finance. We believe finance should offer equal and free access, sovereignty over one's own assets, and power held where it belongs: in everyone's hands. The technology we build is simply the means to get there.
+0xHorizon is an infrastructure project grounded in decentralised finance. We believe finance should offer equal and free access, sovereignty over one's own assets, and power held where it belongs: in everyone's hands. The technology we build is simply the means to get there.
 
 ## About
 
-We invest in foundational infrastructure: the protocols, systems, and technologies that enable trustless coordination at scale. Our work spans decentralised finance, digital asset systems, and the infrastructure required for durable, real-world decentralised ledger applications.
+We work on foundational infrastructure: the protocols, systems, and technologies that enable trustless coordination at scale. Our work spans decentralised finance, digital asset systems, and the infrastructure required for durable, real-world decentralised ledger applications.
 
 ### Our Focus
 
@@ -36,7 +36,7 @@ Parisa contributes to the technical side of our projects. She studied computer s
 
 ## Get in Touch
 
-For partnerships, conversations, or general inquiries:
+For collaborations, conversations, or general inquiries:
 
 - **Website**: [0xhorizon.xyz](https://0xhorizon.xyz)
 - **Email**: [0xhorizonxyz@gmail.com](mailto:0xhorizonxyz@gmail.com)
@@ -48,4 +48,4 @@ For partnerships, conversations, or general inquiries:
 
 *0xHorizon: Building the infrastructure of trustless finance.*
 
-0xHorizon is a personal, non-commercial project.
+0xHorizon is an independent project.
