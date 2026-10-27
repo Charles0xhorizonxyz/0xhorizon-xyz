@@ -25,13 +25,14 @@ Work in progress. Stables is the main contribution.
 - **Mininotes** (live): a private paper pad for the people close to you. Notes stay sealed from device to device over Maxima. [mininotes.org](https://mininotes.org/)
 - **123go.taxi** (live): turns an address into a QR code a taxi driver scans to start the route in their own navigation app. Free, open source, nothing collected. [123go.taxi](https://123go.taxi/)
 
-## Founders
+## Team
 
 **Charles Vallée**  
+Founder  
 Charles brings more than 25 years of experience across traditional finance and international markets. His work is centered on long-term structural thinking, economic systems, and the development of digital infrastructure designed to remain useful over time.
 
-**Parisa Aghaei Nodousti**  
-Parisa brings more than 10 years of experience in computer science and financial development. Her work combines technical understanding, product logic, and strategic development with a focus on systems that are coherent, scalable, and durable.
+**Parisa Aghaeinodousti**  
+Parisa contributes to the technical side of our projects. She studied computer software technology and holds a master's degree in English language and literature.
 
 ## Get in Touch
 
@@ -46,3 +47,5 @@ For partnerships, conversations, or general inquiries:
 ---
 
 *0xHorizon: Building the infrastructure of trustless finance.*
+
+0xHorizon is a personal, non-commercial project.
