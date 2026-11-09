@@ -21,14 +21,13 @@ We work on foundational infrastructure: the protocols, systems, and technologies
 Work in progress. Stables is the main contribution.
 
 - **Stables** (in testing): a banking system merchants own. Self-custodial payments on the Minima blockchain, now in testing. [stablescouncil.org](https://stablescouncil.org/)
-- **Minima Bay** (in development): Minima Bay brings trading, lending, perpetuals and a bridge together in one app, true to Minima and as easy to use as the best. [minimabay.org](https://minimabay.org/)
+- **Minima Bay** (in development): real decentralised finance on Minima, with your assets in your own hands. [minimabay.org](https://minimabay.org/)
 - **Mininotes** (live): a private paper pad for the people close to you. Notes stay sealed from device to device over Maxima. [mininotes.org](https://mininotes.org/)
 - **123go.taxi** (live): turns an address into a QR code a taxi driver scans to start the route in their own navigation app. Free, open source, nothing collected. [123go.taxi](https://123go.taxi/)
 
 ## Team
 
 **Charles Vallée**  
-Founder  
 Charles brings more than 25 years of experience across traditional finance and international markets. His work is centered on long-term structural thinking, economic systems, and the development of digital infrastructure designed to remain useful over time.
 
 **Parisa Aghaeinodousti**  
