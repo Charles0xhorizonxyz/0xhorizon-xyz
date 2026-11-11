@@ -23,6 +23,7 @@ Work in progress. Stables is the main contribution.
 - **Stables** (in testing): a banking system merchants own. Self-custodial payments on the Minima blockchain, now in testing. [stablescouncil.org](https://stablescouncil.org/)
 - **Minima Bay** (in development): real decentralised finance on Minima, with your assets in your own hands. [minimabay.org](https://minimabay.org/)
 - **Mininotes** (live): a private paper pad for the people close to you. Notes stay sealed from device to device over Maxima. [mininotes.org](https://mininotes.org/)
+- **Minima Venues** (beta): every MINIMA order book side by side, with a trade ticket and a paper market maker. Runs on your own computer. Free, open source. [github.com/Charles0xhorizonxyz/minima-venues](https://github.com/Charles0xhorizonxyz/minima-venues)
 - **123go.taxi** (live): turns an address into a QR code a taxi driver scans to start the route in their own navigation app. Free, open source, nothing collected. [123go.taxi](https://123go.taxi/)
 
 ## Team
