@@ -1,8 +1,9 @@
 {
   "name": "0xHorizon",
   "short_name": "0xHorizon",
+  "id": "/",
   "start_url": "/",
-  "display": "browser",
+  "display": "standalone",
   "background_color": "#0d0a0c",
   "theme_color": "#0d0a0c",
   "icons": [
